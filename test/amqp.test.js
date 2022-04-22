@@ -16,9 +16,4 @@ describe("Media handler", () => {
         const res = await receiveMassageAndHandle();
         expect.expect(res).to.equal(true);
     });
-
-    it("Getting massage from queue", async () => {
-        const res = await receiveMassageAndHandle();
-        expect.expect(res).to.equal(true);
-    });
 });
