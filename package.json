@@ -1,0 +1,34 @@
+{
+  "name": "media-handler",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Er4ik/media-handler.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Er4ik/media-handler/issues"
+  },
+  "homepage": "https://github.com/Er4ik/media-handler#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "tesseract.js": "^2.1.5"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.2.2",
+    "nodemon": "^2.0.15"
+  }
+}
